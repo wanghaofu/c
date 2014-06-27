@@ -1,13 +1,10 @@
 // Implementation of the Socket class.
-
-
 #include "Socket.h"
 #include "string.h"
 #include <string.h>
 #include <errno.h>
 #include <fcntl.h>
 #include <iostream>
-
 
 Socket::Socket() :
 	m_sock ( -1 )

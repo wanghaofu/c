@@ -1,24 +1,24 @@
 # Makefile for the socket programming example
 #
 
-simple_server_objects = ServerSocket.o Socket.o simple_server_main.o
-simple_client_objects = ClientSocket.o Socket.o simple_client_main.o http_client.o
+server_objects = ServerSocket.o Socket.o serverMain.o
+client_objects = ClientSocket.o Socket.o clientMain.o
 
 
-all : simple_server simple_client
+all : server client
 
-simple_server: $(simple_server_objects)
-	g++ -o simple_server $(simple_server_objects)
+server: $(server_objects)
+	g++ -o server $(server_objects)
 
 
-simple_client: $(simple_client_objects)
-	g++ -o simple_client $(simple_client_objects)
+client: $(client_objects)
+	g++ -o client $(client_objects)
 
 Socket.o: Socket.cpp
 ServerSocket.o: ServerSocket.cpp
 ClientSocket.o: ClientSocket.cpp
-simple_server_main.o: simple_server_main.cpp
-simple_client_main.o: simple_client_main.cpp
+serverMain.o: serverMain.cpp
+clientMmain.o: clientMain.cpp
 
 .PHONY:clean
 clean:

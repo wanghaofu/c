@@ -7,5 +7,5 @@ int main()
 {
   const int SIZE = 6;
   int array[ SIZE ] = { 1,2, 3, 4, 5, 6 }; // initialize array
-tor< int > integers; // create vector of ints<F5>
+  vector< int > integers; // create vector of ints<F5>
 }
