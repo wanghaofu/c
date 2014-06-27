@@ -1,0 +1,196 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ADDR_LEN	chat/i.h	35;"	d
+BACKLOG	socket2/server.c	10;"	d	file:
+BACKLOG	socket_c/server.c	14;"	d	file:
+Box	box.cpp	/^Box::Box(int ht, int wd, int dp)$/;"	f	class:Box
+Box	box.cpp	/^class Box$/;"	c	file:
+CNTNT_LEN	chat/i.h	33;"	d
+ClientSocket	socket/ClientSocket.h	/^class ClientSocket : private Socket$/;"	c
+ClientSocket	socket/clientSocket.cpp	/^ClientSocket::ClientSocket ( std::string host, int port )$/;"	f	class:ClientSocket
+ClientSocket_class	socket/ClientSocket.h	4;"	d
+DEST_IP	socket_c/server2.c	10;"	d	file:
+DEST_PORT	socket_c/server2.c	11;"	d	file:
+EH	epoll/epoll.c	/^} EV,* EH;$/;"	t	typeref:struct:event_handle	file:
+ERROR	epoll/epoll.c	25;"	d	file:
+EV	epoll/epoll.c	/^} EV,* EH;$/;"	t	typeref:struct:event_handle	file:
+EVENT_HANDLE	epoll/epoll.c	/^typedef int ( * EVENT_HANDLE )( struct event_handle * ev );$/;"	t	file:
+FILE_NAME_MAX_SIZE	socket_c/client.c	16;"	d	file:
+FIN_CHAR	epoll/epoll.c	23;"	d	file:
+HANDLE_CLOSE	epoll/epoll.c	19;"	d	file:
+HANDLE_DEL	epoll/epoll.c	18;"	d	file:
+HANDLE_INFO	epoll/epoll.c	16;"	d	file:
+HANDLE_SEND	epoll/epoll.c	17;"	d	file:
+HSTR_LEN	chat/i.h	38;"	d
+MAXCONNECTIONS	socket/Socket.h	/^const int MAXCONNECTIONS = 5;$/;"	v
+MAXDATASIZE	socket2/client.c	10;"	d	file:
+MAXDATASIZE	socket_c/client.c	15;"	d	file:
+MAXDATASIZE	socket_c/server.c	11;"	d	file:
+MAXHOSTNAME	socket/Socket.h	/^const int MAXHOSTNAME = 200;$/;"	v
+MAXLINE	socket2/client2.c	9;"	d	file:
+MAXLINE	socket2/server2.c	9;"	d	file:
+MAXRECV	socket/Socket.h	/^const int MAXRECV = 500;$/;"	v
+MAX_PROCESS_CONN	epoll/epoll.c	22;"	d	file:
+MAX_REQLEN	epoll/epoll.c	21;"	d	file:
+MSG_LEN	chat/i.h	34;"	d
+N	norace.c	2;"	d	file:
+PRT_LEN	chat/i.h	37;"	d
+SERVERIP	socket_c/client.c	12;"	d	file:
+SERVPORT	socket2/client.c	9;"	d	file:
+SERVPORT	socket2/server.c	9;"	d	file:
+SERVPORT	socket_c/client.c	13;"	d	file:
+SERVPORT	socket_c/server.c	13;"	d	file:
+SEVR_IP	chat/i.h	31;"	d
+SEVR_PORT	chat/i.h	32;"	d
+START_PORT	chat/client.c	9;"	d	file:
+SUCCESS	epoll/epoll.c	24;"	d	file:
+ServerSocket	socket/ServerSocket.h	/^		ServerSocket (){};$/;"	f	class:ServerSocket
+ServerSocket	socket/ServerSocket.h	/^class ServerSocket : private Socket$/;"	c
+ServerSocket_class	socket/ServerSocket.h	4;"	d
+Socket	socket/Socket.cpp	/^Socket::Socket() :$/;"	f	class:Socket
+Socket	socket/Socket.h	/^class Socket$/;"	c
+SocketException	socket/SocketException.h	/^		SocketException ( std::string s ) : m_s ( s ) {};$/;"	f	class:SocketException
+SocketException	socket/SocketException.h	/^class SocketException$/;"	c
+SocketException_class	socket/SocketException.h	2;"	d
+Socket_class	socket/Socket.h	4;"	d
+USR_LEN	chat/i.h	36;"	d
+_I_H	chat/i.h	9;"	d
+accept	socket/Socket.cpp	/^bool Socket::accept ( Socket& new_socket ) const$/;"	f	class:Socket
+address	php/socket.php	/^$address = '127.0.0.1';$/;"	v
+append	chat/i.h	/^	char append[10]; $/;"	m	struct:msg
+bind	socket/Socket.cpp	/^bool Socket::bind ( const int port )$/;"	f	class:Socket
+chat_history	chat/i.h	/^struct chat_history$/;"	s
+check_login	chat/server.c	/^int check_login(struct msg *msg_recv, struct sockaddr *addr)$/;"	f
+clean_request	epoll/epoll.c	/^int clean_request(EH ev){$/;"	f
+connect	socket/Socket.cpp	/^bool Socket::connect ( const std::string host, const int port )$/;"	f	class:Socket
+content	chat/i.h	/^	char content[CNTNT_LEN];$/;"	m	struct:chat_history
+content	chat/i.h	/^	char content[CNTNT_LEN];$/;"	m	struct:msg
+count	chat/i.h	/^	int count;$/;"	m	struct:chat_history
+count	chat/i.h	/^int count;$/;"	v
+create	socket/Socket.cpp	/^bool Socket::create()$/;"	f	class:Socket
+create_accept_fd	epoll/epoll.c	/^int create_accept_fd( int listen_fd ){$/;"	f
+create_listen_fd	epoll/epoll.c	/^int create_listen_fd( int port ){$/;"	f
+depth	box.cpp	/^		int height, width, depth;$/;"	m	class:Box	file:
+description	socket/SocketException.h	/^		std::string description() { return m_s; }$/;"	f	class:SocketException
+epoll_fd	epoll/epoll.c	/^	int epoll_fd;$/;"	m	struct:event_handle	file:
+event_handle	epoll/epoll.c	/^typedef struct event_handle{$/;"	s	file:
+exit_sys	chat/client.c	/^void exit_sys()$/;"	f
+exit_sys	chat/server.c	/^int exit_sys()$/;"	f
+file_fd	epoll/epoll.c	/^	int file_fd;$/;"	m	struct:event_handle	file:
+file_msg_recv	chat/client.c	/^int file_msg_recv(struct msg *pmsg)$/;"	f
+file_pos	epoll/epoll.c	/^	int file_pos;$/;"	m	struct:event_handle	file:
+finish_request	epoll/epoll.c	/^int finish_request(EH ev){$/;"	f
+flag	chat/i.h	/^	int flag; \/* flag meaning:1,ordinary; 2,log msg; 3,reg msg, other,file*\/$/;"	m	struct:msg
+fork_process	epoll/epoll.c	/^int fork_process( int process_num ){$/;"	f
+from	chat/i.h	/^	int from;$/;"	m	struct:chat_history
+get_input	chat/client.c	/^int get_input(char *command)$/;"	f
+get_page_size	chat/client.c	/^int get_page_size()$/;"	f
+get_page_size	chat/server.c	/^int get_page_size()$/;"	f
+handle_method	epoll/epoll.c	/^	int handle_method;$/;"	m	struct:event_handle	file:
+handle_msg	chat/client.c	/^int handle_msg(struct msg *pmsg)$/;"	f
+handle_request	epoll/epoll.c	/^int handle_request(EH ev){$/;"	f
+height	box.cpp	/^		int height, width, depth;$/;"	m	class:Box	file:
+i_bind	chat/i.h	/^int i_bind(int fd, const struct sockaddr *addr, int namelen)$/;"	f
+i_clean_stdin	chat/i.h	/^int i_clean_stdin ()$/;"	f
+i_get_time	chat/i.h	/^char *i_get_time()$/;"	f
+i_init	chat/i.h	/^int i_init()$/;"	f
+i_input	chat/i.h	/^int i_input(char *p_input)$/;"	f
+i_lseek	chat/i.h	/^int i_lseek(int fd, off_t size, int position)$/;"	f
+i_open	chat/i.h	/^int i_open(const char *pathname, int flags)$/;"	f
+i_print	chat/i.h	/^int i_print(char *pmsg, int size)$/;"	f
+i_print_history	chat/i.h	/^int i_print_history(int len, int i)$/;"	f
+i_read	chat/i.h	/^int i_read(int fd, void *msg, int len)$/;"	f
+i_recvfrom	chat/i.h	/^int i_recvfrom(int fd, void *buf, size_t len, int flags, $/;"	f
+i_saveto_chat	chat/i.h	/^int i_saveto_chat(struct msg *pmsg)$/;"	f
+i_send_msg	chat/client.c	/^int i_send_msg()$/;"	f
+i_sendto	chat/i.h	/^int i_sendto(int fd, void *buf, size_t len, int flags,$/;"	f
+i_socket	chat/i.h	/^int i_socket(int domain, int type, int protocol)$/;"	f
+i_write	chat/i.h	/^int i_write(int fd, void *msg, int len)$/;"	f
+id	chat/i.h	/^	int id;$/;"	m	struct:user
+id_from	chat/i.h	/^	int id_from;$/;"	m	struct:msg
+id_to	chat/i.h	/^	int id_to;$/;"	m	struct:msg
+init	chat/client.c	/^int init()$/;"	f
+init	chat/server.c	/^int init()$/;"	f
+init_evhandle	epoll/epoll.c	/^int init_evhandle(EH ev,int socket_fd,int epoll_fd,EVENT_HANDLEr_handle,EVENT_HANDLE w_handle){$/;"	f
+is_valid	socket/Socket.h	/^		bool is_valid() const { return m_sock != -1; }$/;"	f	class:Socket
+listen	socket/Socket.cpp	/^bool Socket::listen() const$/;"	f	class:Socket
+listen_msg	chat/client.c	/^int listen_msg()$/;"	f
+login	chat/client.c	/^int login()$/;"	f
+m_addr	socket/Socket.h	/^		sockaddr_in m_addr;$/;"	m	class:Socket
+m_s	socket/SocketException.h	/^		std::string m_s;$/;"	m	class:SocketException
+m_sock	socket/Socket.h	/^		int m_sock;$/;"	m	class:Socket
+main	box.cpp	/^int main()$/;"	f
+main	chat/client.c	/^int main()$/;"	f
+main	chat/server.c	/^int main()$/;"	f
+main	epoll/epoll.c	/^int main(){$/;"	f
+main	file/file.c	/^int main(void){$/;"	f
+main	fizzBuzz.c	/^main()$/;"	f
+main	norace.c	/^int main()$/;"	f
+main	socket/simple_client_main.cpp	/^int main ( int argc, int argv[] )$/;"	f
+main	socket/simple_server_main.cpp	/^int main ( int argc, int argv[] )$/;"	f
+main	socket2/client.c	/^main(int argc, char *argv[]){$/;"	f
+main	socket2/client2.c	/^int main(int argc, char** argv)$/;"	f
+main	socket2/server.c	/^main()$/;"	f
+main	socket2/server2.c	/^int main(int argc, char** argv)$/;"	f
+main	socket_c/client.c	/^int main(int argc, char *argv[]) $/;"	f
+main	socket_c/server.c	/^int main(int argc, char *agrv[])$/;"	f
+main	socket_c/server2.c	/^int main(int argc, char *argv[])$/;"	f
+main	test.cpp	/^int main()$/;"	f
+main	test_fork.c	/^int main()$/;"	f
+mainfd	chat/i.h	/^int mainfd;\/* used as chat histroy file handle*\/$/;"	v
+menu	chat/client.c	/^int menu()$/;"	f
+menu	chat/server.c	/^int menu()$/;"	f
+msg	chat/i.h	/^struct msg$/;"	s
+msg	php/socket.php	/^	$msg  = "\\n哈哈让我来再写点东西！";$/;"	v
+msg	php/socket.php	/^	$msg = "\\nWelcome to the PHP Test Server. \\n" .$/;"	v
+msg_cntl	chat/server.c	/^int msg_cntl()$/;"	f
+my_addr	chat/client.c	/^struct sockaddr_in my_addr;$/;"	v	typeref:struct:sockaddr_in
+my_id	chat/client.c	/^int my_id;$/;"	v
+my_log	chat/client.c	/^int my_log()$/;"	f
+name	chat/i.h	/^	char name[10];$/;"	m	struct:user
+operator <<	socket/clientSocket.cpp	/^const ClientSocket& ClientSocket::operator << ( const std::string& s ) const$/;"	f	class:ClientSocket
+operator >>	socket/clientSocket.cpp	/^const ClientSocket& ClientSocket::operator >> ( std::string& s ) const$/;"	f	class:ClientSocket
+ordnary_msg_recv	chat/client.c	/^int ordnary_msg_recv(struct msg *pmsg)$/;"	f
+p_chatlog	chat/i.h	/^	char *p_chatlog;$/;"	m	struct:user
+parse_request	epoll/epoll.c	/^int parse_request(EH ev){$/;"	f
+password	chat/i.h	/^	char password[10];$/;"	m	struct:user
+port	php/socket.php	/^$port = 10000;$/;"	v
+print_menu	chat/client.c	/^int print_menu()$/;"	f
+read_chat_history	chat/client.c	/^int read_chat_history()$/;"	f
+read_chat_history	chat/server.c	/^int read_chat_history()$/;"	f
+read_handle	epoll/epoll.c	/^	int ( * read_handle )( struct event_handle * ev );$/;"	m	struct:event_handle	file:
+read_hook_v2	epoll/epoll.c	/^int read_hook_v2( EH ev ){$/;"	f
+recv	socket/Socket.cpp	/^int Socket::recv ( std::string& s ) const$/;"	f	class:Socket
+reg_user	chat/server.c	/^int reg_user(struct msg *msg_recv, struct sockaddr *addr)$/;"	f
+regist	chat/client.c	/^int regist()$/;"	f
+reply	chat/client.c	/^int reply()$/;"	f
+request	epoll/epoll.c	/^	char request[MAX_REQLEN];$/;"	m	struct:event_handle	file:
+request_len	epoll/epoll.c	/^	int request_len;$/;"	m	struct:event_handle	file:
+send	socket/Socket.cpp	/^bool Socket::send ( const std::string s ) const$/;"	f	class:Socket
+send_file	chat/client.c	/^int send_file()$/;"	f
+send_msg	chat/server.c	/^int send_msg(struct msg *msg_recv, struct sockaddr *addr)$/;"	f
+server	chat/i.h	/^struct sockaddr_in server;$/;"	v	typeref:struct:sockaddr_in
+set_non_blocking	socket/Socket.cpp	/^void Socket::set_non_blocking ( const bool b )$/;"	f	class:Socket
+simple_client_objects	socket/Makefile	/^simple_client_objects = ClientSocket.o Socket.o simple_client_main.o$/;"	m
+simple_server_objects	socket/Makefile	/^simple_server_objects = ServerSocket.o Socket.o simple_server_main.o$/;"	m
+socket_fd	epoll/epoll.c	/^	int socket_fd;$/;"	m	struct:event_handle	file:
+sockfd	chat/i.h	/^int sockfd;\/* used as socket local handle *\/$/;"	v
+talkback	php/socket.php	/^		$talkback = "PHP: You said '$buf'.\\n";$/;"	v
+thread	norace.c	/^void *thread(void *vargp)$/;"	f
+time	chat/i.h	/^	char time[25];$/;"	m	struct:chat_history
+to	chat/i.h	/^	int to;$/;"	m	struct:chat_history
+user	chat/i.h	/^struct user$/;"	s
+user_addr	chat/i.h	/^	struct sockaddr user_addr;	$/;"	m	struct:user	typeref:struct:user::sockaddr
+user_list_fd	chat/server.c	/^int user_list_fd;$/;"	v
+volume	box.cpp	/^int Box::volume()$/;"	f	class:Box
+width	box.cpp	/^		int height, width, depth;$/;"	m	class:Box	file:
+write_handle	epoll/epoll.c	/^	int ( * write_handle )( struct event_handle * ev );$/;"	m	struct:event_handle	file:
+write_hook_v1	epoll/epoll.c	/^int write_hook_v1( EH ev ){$/;"	f
+~Box	box.cpp	/^Box::~Box()$/;"	f	class:Box
+~ClientSocket	socket/ClientSocket.h	/^			  virtual ~ClientSocket(){};$/;"	f	class:ClientSocket
+~Socket	socket/Socket.cpp	/^Socket::~Socket()$/;"	f	class:Socket
+~SocketException	socket/SocketException.h	/^		~SocketException (){};$/;"	f	class:SocketException
